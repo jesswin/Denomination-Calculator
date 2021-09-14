@@ -1,0 +1,30 @@
+.welcome {
+  background-color: #162b2b;
+  color: white;
+  border-radius: 6px;
+  padding: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.welcome p:first-child {
+  font-size: 1.5rem;
+}
+
+.welcome figcaption {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: right;
+  color: #a1e0e0;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome p:first-child {
+    font-size: 1.2rem;
+  }
+
+  .welcome{
+    padding: 1rem;
+  }
+}

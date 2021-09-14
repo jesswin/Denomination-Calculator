@@ -1,0 +1,35 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .container:hover ~ .hidden {
+  display: block;
+} */
+
+.layout{
+  margin: 1rem;
+}
+
+
+.layout:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 4px 8px #00000033;
+}
+
+.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

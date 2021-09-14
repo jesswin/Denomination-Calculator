@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.main input {
+  width: 4rem;
+  height: 2rem;
+  margin-left: 1rem;
+  font-size: large;
+  border-radius: 0.3rem;
+}
+
+.main input:focus {
+  outline: none;
+  border: 2px solid #008080;
+  box-shadow: 0 0 2px #008080;
+}
+
+.para {
+  width: 5rem;
+  word-wrap: break-word;
+  /* overflow: scroll; */
+  /* we can also use over flow to make it scroll */
+  /* border: 2px solid red; */
+}
+
+@media only screen and (max-width: 600px) {
+  .para {
+    max-width: 4rem;
+  }
+  .main input {
+    margin: 0 2rem;
+  }
+}

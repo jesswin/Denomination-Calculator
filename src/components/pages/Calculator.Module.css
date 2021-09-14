@@ -1,0 +1,33 @@
+.buttonPrimary {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid teal;
+  cursor: pointer;
+  margin: 2rem;
+  float: right;
+  font-size: medium;
+}
+
+.buttonPrimary:hover,
+.buttonPrimary:active {
+  background-color: #11acac;
+  border-color: #11acac;
+  transform: scale(1.05);
+}
+
+.buttonPrimaryDisabled {
+  text-decoration: none;
+  background-color: grey;
+  color: black;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid black;
+  cursor: not-allowed;
+  margin: 2rem;
+  float: right;
+  font-size: medium;
+}
+

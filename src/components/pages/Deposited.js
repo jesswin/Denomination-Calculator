@@ -1,5 +1,7 @@
+import DepositedData from "../Deposited/DepositedData";
+
 const Deposited = () => {
-  return <p>Depo</p>;
+  return <DepositedData />;
 };
 
 export default Deposited;

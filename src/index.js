@@ -4,10 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import DenominationContextProvider from "./components/store/denomination-context-provider";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <DenominationContextProvider>
+      <App />
+    </DenominationContextProvider>
   </BrowserRouter>,
   document.getElementById("root")
 );
